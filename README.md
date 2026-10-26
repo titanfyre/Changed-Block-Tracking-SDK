@@ -16,10 +16,16 @@ system and other virtual disks are inventory-only. This version does not include
 disk imaging, automatic baselines, VSS coordination or production backup support.
 See [validation and data guarantees](docs/VALIDATION.md) before integrating it.
 
+The release ZIP contains the application, CLI, example, both single-file setup
+executables and matching opaque Microsoft-signed packages under `Driver/`.
+Microsoft signing covers the driver packages; the user-mode EXEs are separate.
+The supported scope and executed qualification are documented in
+[validation](docs/VALIDATION.md).
+
 ## Install and try
 
 1. Download the complete bundle from [Releases](https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases). `ChangedBlocksStudio.exe --preview` shows an explicitly synthetic bitmap without opening a runtime or disk.
-2. For live evaluation, use a disposable VM with the independently supplied **Titan Storage Fault Lab** fixture. Do not initialize or partition that scratch disk. Save a VM checkpoint first.
+2. For live evaluation, use a disposable VM with the [Microsoft-signed **Titan Storage Fault Lab** fixture](https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases). Do not initialize or partition that scratch disk. Save a VM checkpoint first.
 3. Run the matching **Microsoft-signed** `ChangedBlocksSetup.exe` as administrator and choose **Install package**. Setup installs the SDK application, CBT package and shared runtime; it does not attach any disk automatically. A source build without both trusted signed packages refuses installation.
 4. Select the **owned synthetic scratch disk**, choose **Attach selected**, and restart Windows if requested. Setup preserves other per-device filters and never installs a class-wide filter or restarts Windows automatically.
 5. Open **Changed Block Tracking Studio**, refresh, select the attached scratch disk and choose **Start tracking** after establishing your baseline externally. Generate your own test workload. This viewer never writes disk contents.
@@ -139,9 +145,9 @@ Use Visual Studio 2022 Desktop C++, the Windows SDK and CMake on x64:
 ```powershell
 .\Build.ps1
 .\Build.ps1 -Asan
-# Embed independently returned, Microsoft-signed opaque packages only:
-.\Build.ps1 -RuntimePackageDirectory C:\Signed\TitanSdkRuntime `
-            -DriverPackageDirectory C:\Signed\TitanChangedBlockTracking
+# Rebuild setup with both opaque signed packages from the release ZIP:
+.\Build.ps1 -RuntimePackageDirectory .\Driver\TitanSdkRuntime `
+            -DriverPackageDirectory .\Driver\TitanChangedBlockTracking
 ```
 
 Outputs are in `obj/Build/bin/Release`. Normal and AddressSanitizer offline tests

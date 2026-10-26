@@ -1,6 +1,6 @@
 # Validation and storage boundaries
 
-Changed Block Tracking SDK 0.1.0 targets Windows 10 version 2004/build 19041+ x64 and Windows 11 x64. This evaluation
+Changed Block Tracking SDK 0.1.1 targets Windows 10 version 2004/build 19041+ x64 and Windows 11 x64. This evaluation
 accepts only the independently identified, unpartitioned 64 MiB Titan Storage
 Fault Lab synthetic scratch disk. Physical, system and other virtual disks are
 inventory-only. It is an upper disk filter, not a file-system minifilter.
@@ -24,11 +24,21 @@ fixtures, package removal and required normal restarts. The guest was restored
 to its original checkpoint and finished Off; host boot/security policy was not
 changed. These results cover that candidate and fixture, not every Windows PC.
 
-New kernel candidates used guest-only test signing. Independent fixture drivers
-retained their verified Microsoft signatures. This is functional qualification,
-not a Microsoft attestation/HLK/WHQL claim. Returned Microsoft packages and the
-final embedded setup still require their own trust, membership and installation
-checks before installable binaries are distributed.
+The original candidate completed its pre-submission tests with guest-only test
+signing. The returned Microsoft packages additionally passed kernel-policy trust,
+catalog membership and unchanged Authenticode-content checks against that exact
+candidate. Both final UI and console setups were inspected as data: their embedded
+drivers and applications match the reviewed release files byte for byte.
+
+The returned packages then completed normal and targeted Driver Verifier
+campaigns in the owned Windows 10 build 19045 guest with **test signing disabled**.
+The four actual console installers performed installation and uninstallation;
+the same native functional fixtures, genuine signed full-mode grants and owned
+interactive desktop test passed. Exact installed SYS hashes, package removal,
+evidence collection and restoration to the original Off guest were verified.
+This establishes the documented evaluation scope, not HLK/WHQL certification or
+qualification of Windows 11, Secure Boot/HVCI and arbitrary physical hardware.
+The application bundle is 0.1.1; signed driver package versions remain 0.1.0.0.
 
 ## Demo and activation qualification
 
@@ -72,8 +82,8 @@ The four bounded writers touched only the separately captured 64 KiB range at
 6 MiB. The viewer itself never generates disk writes. These are integrity and
 lifecycle checks, not physical storage throughput or latency benchmarks.
 
-The frozen CBT driver input SHA256 is 4ce1c39c8107818f0f9b6c9d0d002d16bd9410a167aa73e0475f1479668c501c.
-The shared production runtime input SHA256 is 5ee4e64afeffe527a02b74fc50bdcc7eed4808e6e3ec9a3db028039057c6bf80.
+The pre-signature qualified CBT driver input SHA256 is 4ce1c39c8107818f0f9b6c9d0d002d16bd9410a167aa73e0475f1479668c501c.
+The unsigned qualification runtime input SHA256 is 5ee4e64afeffe527a02b74fc50bdcc7eed4808e6e3ec9a3db028039057c6bf80.
 
 Physical storage stacks, Windows 11, Secure Boot/HVCI, boot/paging/crash paths,
 power loss, sleep/resume, low resources, prolonged workloads and other filters
