@@ -2,6 +2,17 @@
 
 **Track conservative changed disk ranges and consume immutable checkpoints from C++.**
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full version without the demo time limit**, and mention **Changed Block Tracking SDK**.
+>
+> Tell me whether you need personal use, business integration or OEM redistribution, and ask for pricing and license / activation instructions.
+<!-- full-version-contact:end -->
+
 A native Windows application, a compact C++ SDK and a private KMDF upper disk
 filter for incremental-storage integrations. The filter observes write ranges;
 the application can freeze a bitmap, consume it while new writes continue, and
