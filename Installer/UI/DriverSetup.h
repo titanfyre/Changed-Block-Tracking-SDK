@@ -1,5 +1,5 @@
 #pragma once
-#include "../SDK/ChangedBlocks.h"
+#include "../../SDK/ChangedBlocks.h"
 namespace DriverSetup {
 enum class Action {Install,Attach,Detach,Uninstall};
 struct Result{DWORD error=0;bool reboot=false;std::wstring detail;};

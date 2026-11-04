@@ -1,5 +1,5 @@
-#include "../InstallerUI/Setup.h"
-#include "../InstallerUI/DriverSetup.h"
+#include "../UI/Setup.h"
+#include "../UI/DriverSetup.h"
 #include <iostream>
 int wmain(int argc,wchar_t** argv){
  if(argc==2&&wcscmp(argv[1],L"/status")==0){std::wcout<<(DriverSetup::ServiceInstalled()?L"CBT filter service package is installed. A selected disk association/restart is also required.\n":L"CBT filter driver is not installed.\n");return 0;}
