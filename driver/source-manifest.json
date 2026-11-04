@@ -1,0 +1,196 @@
+{
+    "Schema":  1,
+    "Repo":  "titanfyre/Changed-Block-Tracking-SDK",
+    "Variant":  "Distinct demo-only source preview",
+    "SourcePackageRoot":  "driver/",
+    "MatchingPreviewSdk":  "driver/SDK/",
+    "CurrentPublishedEditionReproduced":  false,
+    "Identity":  "TitanSdkDemoRuntime service and TitanSdkDemoRuntime1 device; optional product driver identities suffixed Demo",
+    "RuntimePolicy":  "3600 seconds per product per Windows boot; resident first-use deadlines; closing clients/function-driver reloads do not renew the budget; no activation acceptance implementation",
+    "Compatibility":  "Public ABI layouts/operation numbers retained; Verification returns unsupported and activation IOCTLs reject requests. Isolated identities create a separate budget domain from the current signed combined runtime.",
+    "CurrentReleaseBoundary":  "Existing top-level SDK/App/Installer and signed binaries are preserved. Current installers and signed SYS/CAT files do not install or qualify this new variant.",
+    "CopiedFiles":  [
+                        {
+                            "Path":  "SDK/CbtProtocol.h",
+                            "Bytes":  2081,
+                            "SHA256":  "041A4351B740ADDB1BE26CF6FB8A7B770D3180CE04F45599E10655CF1B66B56D",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/SDK/CbtProtocol.h",
+                            "PreparedSHA256":  "041A4351B740ADDB1BE26CF6FB8A7B770D3180CE04F45599E10655CF1B66B56D",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/ChangedBlocks.cpp",
+                            "Bytes":  9758,
+                            "SHA256":  "8C8786C59C9877F441C8958C6BA98F82698960D7A253BE96AB60E5C6F23E7AFB",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/SDK/ChangedBlocks.cpp",
+                            "PreparedSHA256":  "8C8786C59C9877F441C8958C6BA98F82698960D7A253BE96AB60E5C6F23E7AFB",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/ChangedBlocks.h",
+                            "Bytes":  1683,
+                            "SHA256":  "DD2C26A4325DEA242055CA10B51FCB621ADF3117984AC5A99644F5578CEB4F9C",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/SDK/ChangedBlocks.h",
+                            "PreparedSHA256":  "DD2C26A4325DEA242055CA10B51FCB621ADF3117984AC5A99644F5578CEB4F9C",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/Inventory.cpp",
+                            "Bytes":  9835,
+                            "SHA256":  "D75137DE512BD985B34E40F644498D282A6F650D46B61511EA83F3E64A2558BB",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/SDK/Inventory.cpp",
+                            "PreparedSHA256":  "D75137DE512BD985B34E40F644498D282A6F650D46B61511EA83F3E64A2558BB",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/License.cpp",
+                            "Bytes":  5989,
+                            "SHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/SDK/License.cpp",
+                            "PreparedSHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/License.h",
+                            "Bytes":  511,
+                            "SHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/SDK/License.h",
+                            "PreparedSHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/LicenseProtocol.h",
+                            "Bytes":  1982,
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/SDK/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/DemoKernel.h",
+                            "Bytes":  2623,
+                            "SHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/driver/Runtime/DemoKernel.h",
+                            "PreparedSHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/LicenseProtocol.h",
+                            "Bytes":  1982,
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/driver/Runtime/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/Runtime.c",
+                            "Bytes":  6537,
+                            "SHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/driver/Runtime/Runtime.c",
+                            "PreparedSHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.inf",
+                            "Bytes":  734,
+                            "SHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/driver/Runtime/TitanSdkDemoRuntime.inf",
+                            "PreparedSHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "Bytes":  2455,
+                            "SHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/driver/Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "PreparedSHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Driver/Driver.c",
+                            "Bytes":  19083,
+                            "SHA256":  "50C420ABAA1C788FFEE9D83032096E2A8713CCBF6CA7E05DBDB6DE79F5CDF6D5",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/driver/Driver/Driver.c",
+                            "PreparedSHA256":  "50C420ABAA1C788FFEE9D83032096E2A8713CCBF6CA7E05DBDB6DE79F5CDF6D5",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Driver/TitanChangedBlockTrackingDemo.inf",
+                            "Bytes":  869,
+                            "SHA256":  "2742AF1D6C6C813FBD630F62E5ECD71329E6D7F61CC146F02F02FC03907C964E",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/driver/Driver/TitanChangedBlockTrackingDemo.inf",
+                            "PreparedSHA256":  "2742AF1D6C6C813FBD630F62E5ECD71329E6D7F61CC146F02F02FC03907C964E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Driver/TitanChangedBlockTrackingDemo.vcxproj",
+                            "Bytes":  2481,
+                            "SHA256":  "3567D11C5B951896359989A3B2ABC4C7CC625C7EDF65BE3BCE84B910BE32F63F",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/driver/Driver/TitanChangedBlockTrackingDemo.vcxproj",
+                            "PreparedSHA256":  "8F38C200CCE01A3D911A1A054E7EF9E30705C7E93C8B737DAE6576D060FC6681",
+                            "Change":  "Portable SDK include rebased to sibling driver/SDK; runtime semantics unchanged"
+                        },
+                        {
+                            "Path":  "CMakeLists.txt",
+                            "Bytes":  1022,
+                            "SHA256":  "7E3E39BF54814DF777C4F2B21CBC15E7188F48481A9593342610F8104DCB2238",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/CMakeLists.txt",
+                            "PreparedSHA256":  "7E3E39BF54814DF777C4F2B21CBC15E7188F48481A9593342610F8104DCB2238",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "DemoAbiProbe.cpp",
+                            "Bytes":  576,
+                            "SHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "PreparedProposalPath":  "Changed-Block-Tracking-SDK/DemoAbiProbe.cpp",
+                            "PreparedSHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        }
+                    ],
+    "GeneratedFiles":  [
+                           {
+                               "Path":  "Build.ps1",
+                               "SHA256":  "65356AB817176F09EDBC6FD69DDA96D2EDAEA0DBB8D8C13FC7F407EC89987434",
+                               "Bytes":  4261,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "README.md",
+                               "SHA256":  "FEAEED8DB5ECD258CCAC14981E7E35BB116E5C6FDEFA234951626E7F765F97CE",
+                               "Bytes":  4188,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "source-boundaries.json",
+                               "SHA256":  "CFFC0E002714EEA1B8893B3D028E02E5E6792A60ABC4533A9CC25C8D1DCF29E7",
+                               "Bytes":  16878,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "validation-report.json",
+                               "SHA256":  "F46AC188D756B9F770F4744B0D52CBCA543D3DE2EC9CC3808CA4B93BD8636F9D",
+                               "Bytes":  777,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           }
+                       ],
+    "SourceBoundaryProof":  "source-boundaries.json",
+    "ProtectedCurrentReleaseFilesChecked":  21,
+    "ProtectedCurrentReleaseFileChanges":  0,
+    "ValidationReport":  "validation-report.json",
+    "CompileLinkAndAbiProbePassed":  true,
+    "KernelProjectsCompiled":  2,
+    "Errors":  0,
+    "Warnings":  0,
+    "DriverInstallationOrLoadingPerformed":  false,
+    "SigningPerformed":  false,
+    "LiveRuntimeHardwareExpiryOrRebootQualificationPerformed":  false,
+    "BinaryOrSensitiveFilesInSourceFolder":  0,
+    "FullActivationImplementationFindings":  0,
+    "SourceTerms":  "See LICENSE.txt and retained upstream/source notices; licence mapping is maintained separately.",
+    "LicenseMappingOwnedSeparately":  [
+                                          "LICENSE.txt",
+                                          "LICENSE-MAP.txt",
+                                          "THIRD-PARTY-LICENSES/"
+                                      ],
+    "MainReadmeChange":  "Added separate demo-only source-preview section; current release instructions retained."
+}

@@ -1,5 +1,10 @@
 # Validation and storage boundaries
 
+This document describes the current signed demo/full implementation and its
+release qualification. The separate [demo-only source preview](../driver/README.md)
+uses new identities and has compile/link plus ABI-rejection checks only.
+The runtime and hardware results below do not qualify that new preview.
+
 Changed Block Tracking SDK 0.1.1 targets Windows 10 version 2004/build 19041+ x64 and Windows 11 x64. This evaluation
 accepts only the independently identified, unpartitioned 64 MiB Titan Storage
 Fault Lab synthetic scratch disk. Physical, system and other virtual disks are

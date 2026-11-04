@@ -13,8 +13,9 @@
 > Tell me whether you need personal use, business integration or OEM redistribution, and ask for pricing and license / activation instructions.
 <!-- full-version-contact:end -->
 
-A native Windows application, a compact C++ SDK and a private KMDF upper disk
-filter for incremental-storage integrations. The filter observes write ranges;
+The current signed release contains a native Windows application, a compact C++
+SDK and a private KMDF upper disk filter for incremental-storage integrations.
+The filter observes write ranges;
 the application can freeze a bitmap, consume it while new writes continue, and
 acknowledge that exact generation when finished.
 
@@ -32,6 +33,29 @@ executables and matching opaque Microsoft-signed packages under `Driver/`.
 Microsoft signing covers the driver packages; the user-mode EXEs are separate.
 The supported scope and executed qualification are documented in
 [validation](docs/VALIDATION.md).
+
+<!-- demo-only-source-preview:start -->
+## Separate demo-only source preview
+
+[driver/README.md](driver/README.md) describes a new demo-only source preview,
+including its matching client SDK under [driver/SDK/](driver/SDK/). It uses
+separate Demo driver/runtime identities, retains the one-hour per-product boot
+budget, and contains no full-activation implementation.
+
+This preview differs from the current signed release described here. The
+existing top-level SDK, applications, installers and signed packages continue
+to target the original combined demo/full runtime. Existing installers cannot
+install the new preview, and existing signed SYS/CAT files cannot be reused for
+it. The preview has compile/link and ABI-rejection checks only; new signing and
+runtime qualification remain separate work.
+
+The existing top-level application, SDK, examples and installer remain
+[MIT licensed](LICENSE). Newly published Titan-owned preview source uses the
+[evaluation-source terms](driver/LICENSE.txt). Previously MIT-licensed SDK
+portions and other upstream material retain their existing grants; see the
+[file-by-file licence map](driver/LICENSE-MAP.txt).
+
+<!-- demo-only-source-preview:end -->
 
 ## Install and try
 
@@ -166,10 +190,12 @@ Use Visual Studio 2022 Desktop C++, the Windows SDK and CMake on x64:
 ```
 
 Outputs are in `obj/Build/bin/Release`. Normal and AddressSanitizer offline tests
-open no driver, attach no filter and write no raw disk. Driver implementation,
-private validation fixtures and signing credentials are excluded from this repo.
+open no driver, attach no filter and write no raw disk. The current driver/runtime
+implementation with full activation remains excluded; the separate
+demo-only source preview is under `driver/`. Private validation fixtures and
+signing credentials remain excluded from this repo.
 
-Public application, SDK, example and installer source is [MIT licensed](LICENSE).
+Existing top-level application, SDK, example and installer source is [MIT licensed](LICENSE).
 Private driver/runtime binaries have separate evaluation and commercial terms.
 Use only on systems and disposable data you own or administer with permission.
 You are responsible for lawful use, backups and integration correctness. Software
