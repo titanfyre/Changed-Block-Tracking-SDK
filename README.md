@@ -196,7 +196,7 @@ demo-only source preview is under `driver/`. Private validation fixtures and
 signing credentials remain excluded from this repo.
 
 Existing top-level application, SDK, example and installer source is [MIT licensed](LICENSE).
-Private driver/runtime binaries have separate evaluation and commercial terms.
+Prebuilt driver/runtime binaries have separate evaluation and commercial terms.
 Use only on systems and disposable data you own or administer with permission.
 You are responsible for lawful use, backups and integration correctness. Software
 is provided without warranty; mandatory statutory rights remain unaffected. No
