@@ -1,0 +1,17 @@
+{
+  "name": "changed-block-tracking-sdk-sdk",
+  "version-string": "0.1.1",
+  "description": "Public native SDK for Changed-Block-Tracking-SDK; Windows x64, no driver installer.",
+  "license": "MIT",
+  "supports": "windows & x64 & !uwp",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
