@@ -12,6 +12,76 @@
         ]
       },
       "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "ChangedBlockTrackingSDKJsonSDK.dll",
+      "api_prefix": "changed_block_tracking_sdk_json_"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "changed-block-tracking-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "changed-block-tracking-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "changed-block-tracking-sdk",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "changed-block-tracking-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "changed-block-tracking-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "changed_block_tracking_sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "ChangedBlockTrackingSDK.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Changed-Block-Tracking-SDK-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "ChangedBlockTrackingSDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",

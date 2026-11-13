@@ -1,0 +1,9 @@
+name: changed_block_tracking_sdk
+description: Direct Windows x64 Changed-Block-Tracking-SDK SDK with native operations and exact uint64 identifiers.
+version: 1.0.0
+homepage: https://github.com/titanfyre/Changed-Block-Tracking-SDK
+repository: https://github.com/titanfyre/Changed-Block-Tracking-SDK
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+platforms:
+  windows:

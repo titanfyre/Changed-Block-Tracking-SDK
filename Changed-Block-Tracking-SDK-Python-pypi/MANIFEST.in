@@ -1,0 +1,3 @@
+include README.md LICENSE
+recursive-include changed_block_tracking_sdk *.py *.dll
+recursive-include docs *
