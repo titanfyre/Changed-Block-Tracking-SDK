@@ -1,8 +1,6 @@
 # Changed-Block-Tracking-SDK .NET8 SDK
 
-Package ID `ChangedBlockTrackingSDK.SDK`. NuGet upload remains on hold at owner request.
-
-```csharp
+Package ID `ChangedBlockTrackingSDK.SDK`. ```csharp
 using var client=new TitanCSA.Products.ChangedBlockTrackingSDK.Client();
 string statusJson=client.Call("status", "{}");
 ```
