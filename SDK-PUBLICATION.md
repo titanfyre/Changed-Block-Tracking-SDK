@@ -5,21 +5,21 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Target | Status | Package / documentation |
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | changed-block-tracking-sdk |
-| CPP/conan | public_recipe_builds_locally |  |
+| CPP/conan | public_recipe_builds_locally |  [Source](packaging/native/) |
 | CPP/nuget | paused_pending_owner_email_confirmation | Changed-Block-Tracking-SDK.Native |
-| NET/nuget | binding_not_implemented |  |
-| Python/pypi | binding_not_implemented |  |
-| Python/conda-forge | binding_not_implemented |  |
-| Rust/cargo | binding_not_implemented |  |
-| JavaScript/npm | binding_not_implemented |  |
-| Java/maven | binding_not_implemented |  |
-| Java/jitpack | binding_not_implemented |  |
-| Go/modules | binding_not_implemented |  |
-| Go/pkg-go-dev | binding_not_implemented |  |
-| PowerShell/gallery | binding_not_implemented |  |
-| Dart/pub-dev | binding_not_implemented |  |
-| Ruby/rubygems | binding_not_implemented |  |
-| PHP/packagist | binding_not_implemented |  |
+| NET/nuget | built_verified_publication_on_hold_by_owner | ChangedBlockTrackingSDK.SDK [Source](Changed-Block-Tracking-SDK-NET-nuget/) |
+| Python/pypi | built_fixture_and_production_verified | changed-block-tracking-sdk [Source](Changed-Block-Tracking-SDK-Python-pypi/) |
+| Python/conda-forge | built_tested_requires_source_publication_and_official_review | changed-block-tracking-sdk [Source](packaging/conda/) |
+| Rust/cargo | published_install_verified | [changed-block-tracking-sdk](https://crates.io/crates/changed-block-tracking-sdk) [Source](Changed-Block-Tracking-SDK-Rust-cargo/) |
+| JavaScript/npm | awaiting_browser_publication_authentication | [changed-block-tracking-sdk](https://www.npmjs.com/package/changed-block-tracking-sdk) [Source](Changed-Block-Tracking-SDK-JavaScript-npm/) |
+| Java/maven | published_install_verified | [changed-block-tracking-sdk](https://central.sonatype.com/artifact/io.github.titancsa/changed-block-tracking-sdk/1.0.0) [Source](Changed-Block-Tracking-SDK-Java-maven/) |
+| Java/jitpack | published_install_verified | [changed-block-tracking-sdk](https://jitpack.io/#titanfyre/Changed-Block-Tracking-SDK/java-sdk-v1.0.0) [Source](Changed-Block-Tracking-SDK-Java-maven/) |
+| Go/modules | published_install_verified | [changed-block-tracking-sdk](https://pkg.go.dev/github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0) [Source](Changed-Block-Tracking-SDK-Go-modules/) |
+| Go/pkg-go-dev | indexed_verified | [Documentation](https://pkg.go.dev/github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0) |
+| PowerShell/gallery | published_install_verified | [ChangedBlockTrackingSDK](https://www.powershellgallery.com/packages/ChangedBlockTrackingSDK/1.0.0) [Source](Changed-Block-Tracking-SDK-PowerShell-gallery/) |
+| Dart/pub-dev | built_fixture_and_production_verified | changed_block_tracking_sdk [Source](Changed-Block-Tracking-SDK-Dart-pub-dev/) |
+| Ruby/rubygems | published_install_verified | [changed-block-tracking-sdk](https://rubygems.org/gems/changed-block-tracking-sdk) [Source](Changed-Block-Tracking-SDK-Ruby-rubygems/) |
+| PHP/packagist | composer_source_and_tag_published | [titancsa/changed-block-tracking-sdk](https://packagist.org/packages/titancsa/changed-block-tracking-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 
