@@ -203,7 +203,7 @@
       "api_prefix": "changed_block_tracking_sdk_json_"
     },
     "JavaScript/npm": {
-      "status": "awaiting_browser_publication_authentication",
+      "status": "registry_publication_requires_action",
       "name": "changed-block-tracking-sdk",
       "version": "1.0.0",
       "directory": "Changed-Block-Tracking-SDK-JavaScript-npm",
