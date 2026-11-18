@@ -205,7 +205,7 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | PyPI | `changed-block-tracking-sdk` | Commande prevue apres publication : `python -m pip install changed-block-tracking-sdk==1.0.0` |
 | Conda | `changed-block-tracking-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge changed-block-tracking-sdk` (canal TitanCSA) |
 | crates.io | `changed-block-tracking-sdk` | `cargo add changed-block-tracking-sdk@1.0.0` |
-| npm | `changed-block-tracking-sdk` | Commande prevue apres publication : `npm install changed-block-tracking-sdk@1.0.0` |
+| npm | `changed-block-tracking-sdk` | `npm install changed-block-tracking-sdk@1.0.0` |
 | Maven Central | `io.github.titancsa:changed-block-tracking-sdk` | `io.github.titancsa:changed-block-tracking-sdk:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:Changed-Block-Tracking-SDK` | `com.github.titanfyre:Changed-Block-Tracking-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules` | `go get github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0` |
