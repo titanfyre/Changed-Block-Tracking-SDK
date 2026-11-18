@@ -211,7 +211,7 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | Go Modules | `github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules` | `go get github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0` |
 | PowerShell Gallery | `ChangedBlockTrackingSDK` | `Install-Module ChangedBlockTrackingSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `changed_block_tracking_sdk` | Commande prevue apres publication : `dart pub add changed_block_tracking_sdk:1.0.0` |
+| pub.dev | `changed_block_tracking_sdk` | `dart pub add changed_block_tracking_sdk:1.0.0` |
 | RubyGems | `changed-block-tracking-sdk` | `gem install changed-block-tracking-sdk -v 1.0.0` |
 | Packagist | `titancsa/changed-block-tracking-sdk` | `composer require titancsa/changed-block-tracking-sdk:1.0.0` |
 
