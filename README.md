@@ -1,5 +1,15 @@
 # Changed Block Tracking SDK - Windows Kernel Storage Filter
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the version without the one-hour demo limit**
+>
+> **Discord · `titancsa`**. Open [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send a message.
+> Send the project name and ask for its full version. TitanCSA will share the purchase details privately.
+>
+> **FR · Version sans la limite d’une heure.** Ajoute **`titancsa`** sur Discord et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+<!-- full-version-contact:end -->
+
 **Track conservative changed disk ranges and consume immutable checkpoints from C++.**
 
 The current signed release contains a native Windows application, a compact C++
@@ -222,13 +232,4 @@ Les anciens imports Go et versions JitPack gardent leurs tags. Pour les ancienne
 
 ## Commercial integration and support
 
-<!-- full-version-contact:start -->
-> [!IMPORTANT]
-> **Get the full version without demo restrictions**
->
-> **Discord username: `titancsa`**
->
-> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full version without the demo time limit**, and mention **Changed Block Tracking SDK**.
->
-> Tell me whether you need personal use, business integration or OEM redistribution, and ask for pricing and license / activation instructions.
-<!-- full-version-contact:end -->
+
